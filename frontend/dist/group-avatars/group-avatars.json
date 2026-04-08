@@ -1,0 +1,108 @@
+{
+  "version": "1.0.0",
+  "description": "OctoWork 群聊头像配置",
+  "total": 10,
+  "avatars": [
+    {
+      "id": "group-01",
+      "name": "Circle Team",
+      "description": "三只章鱼围圈 - 象征团结协作",
+      "filename": "group-01-circle.png",
+      "colors": ["#4169E1", "#9370DB"],
+      "style": "circle",
+      "memberCount": 3
+    },
+    {
+      "id": "group-02",
+      "name": "Pyramid Squad",
+      "description": "四只章鱼金字塔 - 象征层次分明的团队结构",
+      "filename": "group-02-pyramid.png",
+      "colors": ["#FF9500", "#34C759", "#9370DB", "#007AFF"],
+      "style": "pyramid",
+      "memberCount": 4
+    },
+    {
+      "id": "group-03",
+      "name": "Rainbow Alliance",
+      "description": "五只章鱼手拉手 - 象征多元化与包容",
+      "filename": "group-03-rainbow.png",
+      "colors": ["#FF3B30", "#FF9500", "#FFCC00", "#34C759", "#007AFF"],
+      "style": "rainbow",
+      "memberCount": 5
+    },
+    {
+      "id": "group-04",
+      "name": "Hug Circle",
+      "description": "三只章鱼拥抱 - 象征亲密的团队关系",
+      "filename": "group-04-hug.png",
+      "colors": ["#007AFF", "#9370DB", "#34C759"],
+      "style": "hug",
+      "memberCount": 3
+    },
+    {
+      "id": "group-05",
+      "name": "Meeting Room",
+      "description": "四只章鱼开会 - 象征高效沟通",
+      "filename": "group-05-meeting.png",
+      "colors": ["#FF2D55", "#FF9500", "#5AC8FA", "#AF52DE"],
+      "style": "meeting",
+      "memberCount": 4
+    },
+    {
+      "id": "group-06",
+      "name": "Hexagon Network",
+      "description": "六只章鱼六边形 - 象征完整的网络连接",
+      "filename": "group-06-hexagon.png",
+      "colors": ["#FF3B30", "#FF9500", "#FFCC00", "#34C759", "#007AFF", "#9370DB"],
+      "style": "hexagon",
+      "memberCount": 6
+    },
+    {
+      "id": "group-07",
+      "name": "High Five Team",
+      "description": "三只章鱼击掌 - 象征成功与庆祝",
+      "filename": "group-07-highfive.png",
+      "colors": ["#007AFF", "#FF9500", "#34C759"],
+      "style": "highfive",
+      "memberCount": 3
+    },
+    {
+      "id": "group-08",
+      "name": "Square Formation",
+      "description": "四只章鱼方阵 - 象征稳定的团队结构",
+      "filename": "group-08-square.png",
+      "colors": ["#007AFF", "#9370DB", "#FF2D55", "#FFCC00"],
+      "style": "square",
+      "memberCount": 4
+    },
+    {
+      "id": "group-09",
+      "name": "Star Network",
+      "description": "五只章鱼星形 - 象征创新与活力",
+      "filename": "group-09-star.png",
+      "colors": ["#FF3B30", "#007AFF", "#34C759", "#FFCC00", "#AF52DE"],
+      "style": "star",
+      "memberCount": 5
+    },
+    {
+      "id": "group-10",
+      "name": "Best Friends",
+      "description": "三只章鱼好友 - 象征友谊与信任",
+      "filename": "group-10-friends.png",
+      "colors": ["#FF9500", "#5AC8FA", "#FF2D55"],
+      "style": "friends",
+      "memberCount": 3
+    }
+  ],
+  "sizes": {
+    "small": "64x64",
+    "medium": "128x128",
+    "large": "256x256",
+    "original": "1024x1024"
+  },
+  "usage": {
+    "basePath": "/group-avatars",
+    "pattern": "/group-avatars/{size}/{filename}",
+    "example": "/group-avatars/256x256/group-01-circle.png"
+  }
+}
