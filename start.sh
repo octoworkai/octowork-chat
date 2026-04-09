@@ -36,13 +36,61 @@ if [ ! -d "$WORKSPACE" ]; then
 fi
 echo "  数字公寓: $WORKSPACE"
 
-# 检查端口
+# 检查并清理端口
 PORT=1314
 if command -v lsof &>/dev/null && lsof -i :$PORT -sTCP:LISTEN &>/dev/null; then
   echo ""
-  echo "⚠️  端口 $PORT 已被占用"
-  echo "   请先停止占用该端口的程序: lsof -i :$PORT"
-  exit 1
+  echo "🔍 发现端口 $PORT 被占用，检查占用进程..."
+  
+  # 获取占用端口的进程信息
+  LSOF_OUTPUT=$(lsof -i :$PORT -sTCP:LISTEN 2>/dev/null | grep LISTEN | head -5)
+  if [ -n "$LSOF_OUTPUT" ]; then
+    echo "  占用进程信息:"
+    echo "$LSOF_OUTPUT" | sed 's/^/    /'
+    
+    # 提取进程ID
+    PIDS=$(echo "$LSOF_OUTPUT" | awk '{print $2}' | sort -u)
+    
+    # 检查是否为node或已知服务进程
+    CAN_CLEAN=1
+    for PID in $PIDS; do
+      PROCESS_INFO=$(ps -p $PID -o comm= 2>/dev/null || echo "unknown")
+      if echo "$PROCESS_INFO" | grep -q -E "^(node|python|java|ruby|go|server|launcher)"; then
+        echo "  检测到服务进程 $PROCESS_INFO (PID: $PID)，尝试清理..."
+        kill $PID 2>/dev/null || kill -9 $PID 2>/dev/null
+        echo "  ✅ 已清理进程 $PID"
+      elif echo "$PROCESS_INFO" | grep -q -E "^(Microsoft|Google|Safari|firefox|chrome|edge)"; then
+        echo "  ⚠️ 检测到浏览器进程 $PROCESS_INFO (PID: $PID)，可能是正常连接"
+        CAN_CLEAN=0
+      else
+        echo "  ⚠️ 未知进程类型: $PROCESS_INFO (PID: $PID)，尝试清理..."
+        kill $PID 2>/dev/null || kill -9 $PID 2>/dev/null
+        if ps -p $PID >/dev/null 2>&1; then
+          echo "  ❌ 无法清理未知进程 $PID，请手动处理"
+          CAN_CLEAN=0
+        else
+          echo "  ✅ 已清理未知进程 $PID"
+        fi
+      fi
+    done
+    
+    # 等待清理完成
+    sleep 1
+    
+    # 再次检查端口
+    if [ $CAN_CLEAN -eq 1 ] && ! lsof -i :$PORT -sTCP:LISTEN &>/dev/null; then
+      echo "  ✅ 端口 $PORT 已释放，继续启动..."
+    else
+      echo ""
+      echo "❌ 无法自动清理端口 $PORT"
+      echo "   请手动停止占用端口的程序: lsof -i :$PORT"
+      exit 1
+    fi
+  else
+    echo "❌ 无法获取端口占用信息"
+    echo "   请手动检查: lsof -i :$PORT"
+    exit 1
+  fi
 fi
 
 # 启动后端
