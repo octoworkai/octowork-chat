@@ -2,3 +2,12 @@
 .ssh/
 Library/
 *.command
+license.key
+*.key
+密钥管理/
+客户密钥管理/
+config/*.json
+*.env
+.env*
+secrets/
+*.secret
