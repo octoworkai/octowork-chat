@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-03-22T03:18:06.308172",
+  "check_results": {
+    "timestamp": "2026-03-22T03:18:05.209545",
+    "backend_service": true,
+    "frontend_service": false,
+    "system_resources": {
+      "cpu_percent": 17.8,
+      "memory_percent": 79.5,
+      "disk_percent": 20.9,
+      "memory_used_gb": 7.9659881591796875,
+      "disk_used_gb": 15.384834289550781
+    },
+    "database_status": {
+      "polluted": false,
+      "polluted_count": 0,
+      "total_messages": 15,
+      "last_timestamp": 1774120134289,
+      "recent_activity": true
+    },
+    "websocket_status": [
+      true,
+      "HTTP\u8fde\u63a5\u6b63\u5e38\uff08WebSocket\u68c0\u67e5\u5df2\u8df3\u8fc7\uff09"
+    ]
+  },
+  "repairs_executed": {},
+  "system_health": "healthy"
+}

@@ -1,6 +1,6 @@
 {
   "name": "octowork-chat",
-  "version": "V2026.04.09.2",
+  "version": "V2026.04.13.1",
   "description": "OctoWork AI Team Chat Manager",
   "main": "launcher.js",
   "scripts": {

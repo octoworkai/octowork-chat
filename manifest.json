@@ -1,12 +1,12 @@
 {
-  "latest_version": "V2026.04.09.2",
+  "latest_version": "V2026.04.13.1",
   "minimum_version": "1.0.0",
-  "release_date": "2026-04-09",
+  "release_date": "2026-04-13",
   "download_url": {
-    "github": "https://github.com/octoworkai/octowork-chat/releases/download/V2026.04.09.2/octowork-chat-V2026.04.09.2.tar.gz",
-    "gitee": "https://gitee.com/octowork/octowork-chat/releases/download/V2026.04.09.2/octowork-chat-V2026.04.09.2.tar.gz"
+    "github": "https://github.com/octoworkai/octowork-chat/releases/download/V2026.04.13.1/octowork-chat-V2026.04.13.1.tar.gz",
+    "gitee": "https://gitee.com/octowork/octowork-chat/releases/download/V2026.04.13.1/octowork-chat-V2026.04.13.1.tar.gz"
   },
-  "sha256": "336ddfa200846865855afdc47f33cfe50a8169dc5b7f44f2d43b2806b891206f",
+  "sha256": "2037ad25c2c4b467a3a0c7ca629ccccf33deb8c2a8251009c89e214fca840d72",
   "changelog_url": "https://github.com/octoworkai/octowork-chat/blob/main/CHANGELOG.md",
-  "release_notes": "V2026.04.09.2 版本更新"
+  "release_notes": "V2026.04.13.1 版本更新"
 }

@@ -1,0 +1,28 @@
+{
+  "userId": "user_1774699827745_qty91c91s",
+  "username": "admin",
+  "password": "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918",
+  "nickname": "Jason",
+  "avatar": "/default-avatar.png",
+  "workspace_code": "local-dev",
+  "email": "",
+  "phone": "",
+  "role": "admin",
+  "created_at": "2026-03-28T12:10:27.746Z",
+  "last_login": "2026-04-13T00:19:55.065Z",
+  "settings": {
+    "auto_login": false,
+    "remember_password": false,
+    "theme": "light",
+    "language": "zh-CN",
+    "notification": {
+      "desktop": true,
+      "sound": true
+    }
+  },
+  "cloud_sync": {
+    "enabled": false,
+    "last_sync": null,
+    "token": null
+  }
+}

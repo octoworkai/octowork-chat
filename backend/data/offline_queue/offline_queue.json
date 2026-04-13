@@ -1,0 +1,33 @@
+{
+  "version": "1.0",
+  "timestamp": 1775310455707,
+  "queues": [
+    {
+      "userId": "admin",
+      "messages": [
+        {
+          "id": "msg_1774731161124_8qg50dkjg",
+          "userId": "admin",
+          "message": {
+            "type": "bot_message",
+            "botId": "octotech-chief",
+            "userId": "admin",
+            "message": {
+              "id": 268,
+              "sender": "bot",
+              "content": "收到 ✅",
+              "timestamp": 1774731161124,
+              "userId": "admin",
+              "sessionId": "user_admin_bot_octotech-chief"
+            }
+          },
+          "priority": "normal",
+          "createdAt": 1774731161124,
+          "expiresAt": 1775335961124,
+          "attempts": 0,
+          "maxAttempts": 3
+        }
+      ]
+    }
+  ]
+}
