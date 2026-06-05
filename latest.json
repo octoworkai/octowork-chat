@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0",
+  "appName": "OctoWork Chat Manager",
+  "releases": [
+    {
+      "version": "V2026.06.04",
+      "releaseDate": "2026-06-04",
+      "notes": "三平台完整发版：修复 backend/db 过滤逻辑，Windows 原生模块在目标机编译，启动脚本重构优化",
+      "platforms": {
+        "mac-arm64": {
+          "downloadUrl": "https://gitee.com/octowork/octowork-chat/releases/download/V2026.06.04/octowork-chat-V2026.06.04-mac-arm64.tar.gz",
+          "sha256": "b1688d58918263ca33c1ce82f7422c3313ea66b32655a918cc7387051adb0e15",
+          "size": 361202594
+        },
+        "mac-x64": {
+          "downloadUrl": "https://gitee.com/octowork/octowork-chat/releases/download/V2026.06.04/octowork-chat-V2026.06.04-mac-x64.tar.gz",
+          "sha256": "62646679448f729c3ad1af4204c3ade4f0290ee67360dc8ea8a6c894dcf048f9",
+          "size": 362864289
+        },
+        "win-x64": {
+          "downloadUrl": "https://gitee.com/octowork/octowork-chat/releases/download/V2026.06.04/octowork-chat-V2026.06.04-win-x64.zip",
+          "sha256": "006f59d4b113d375597fc92488f105cdd71125cc23a2f429ddfa05b53d5fa882",
+          "size": 361155576
+        }
+      },
+      "minVersion": "V2026.04.01.1",
+      "forceUpdate": false,
+      "compatible": true
+    },
+    {
+      "version": "V2026.06.03-01",
+      "releaseDate": "2026-06-03",
+      "notes": "三平台完整发版：修复首次安装流程（API Key 向导、启动顺序、端口默认2888）、Mac 包 bytenode 加密修复、Windows 原生模块在目标机编译、bat UTF-8 BOM 修复",
+      "platforms": {
+        "mac-arm64": {
+          "downloadUrl": "https://gitee.com/octowork/octowork-chat/releases/download/V2026.06.03-01/octowork-chat-V2026.06.03-01-mac-arm64.tar.gz",
+          "sha256": "",
+          "size": 0
+        },
+        "mac-x64": {
+          "downloadUrl": "https://gitee.com/octowork/octowork-chat/releases/download/V2026.06.03-01/octowork-chat-V2026.06.03-01-mac-x64.tar.gz",
+          "sha256": "",
+          "size": 0
+        },
+        "win-x64": {
+          "downloadUrl": "https://gitee.com/octowork/octowork-chat/releases/download/V2026.06.03-01/octowork-chat-V2026.06.03-01-win-x64.zip",
+          "sha256": "",
+          "size": 0
+        }
+      },
+      "minVersion": "V2026.04.01.1",
+      "forceUpdate": false,
+      "compatible": true
+    }
+  ]
+}
