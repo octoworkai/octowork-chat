@@ -3,24 +3,24 @@
   "appName": "OctoWork Chat Manager",
   "releases": [
     {
-      "version": "V2026.06.06",
+      "version": "V2026.06.08",
       "releaseDate": "2026-06-08",
-      "notes": "程序核心模块加密混淆保护上线，三道打包安全门禁，升级脚本支持联网自动检测新版本，修复 Windows 升级后用户配置被覆盖问题",
+      "notes": "本版本更新，详见应用内帮助 → 更新日志",
       "platforms": {
         "mac-arm64": {
-          "downloadUrl": "https://gitee.com/octowork/octowork-chat/repository/archive/octowork-chat-V2026.06.06-mac-arm64.tar.gz",
-          "sha256": "d92b2923fb96b7c9827d58df418cad8115bc2cf31c8f7a76cb076c37b44a37c7",
-          "size": 370867571
+          "downloadUrl": "https://octowork.cn/releases/v2026.06.08/octowork-chat-V2026.06.08-mac-arm64.tar.gz",
+          "sha256": "05c2b91f0b86930679552833be5b9c513df2f8fb48f9fe4b7eb3eb04e35a79ae",
+          "size": 355797453
         },
         "mac-x64": {
-          "downloadUrl": "https://gitee.com/octowork/octowork-chat/repository/archive/octowork-chat-V2026.06.06-mac-x64.tar.gz",
-          "sha256": "df1073921d86c78f6e8619b0d677accd493c046093e3966bedae31433d04199d",
-          "size": 372533042
+          "downloadUrl": "https://octowork.cn/releases/v2026.06.08/octowork-chat-V2026.06.08-mac-x64.tar.gz",
+          "sha256": "1d0bac079bfd9aeda8bc1ca37764a0a87a2087861ba3273106e29b72773c5ac6",
+          "size": 377510544
         },
         "win-x64": {
-          "downloadUrl": "https://gitee.com/octowork/octowork-chat/repository/archive/octowork-chat-V2026.06.06-win-x64.zip",
-          "sha256": "8a7d4cd361aa993a4aebb05df808d854fa273c5865d930feb596f3abb3fb1bbd",
-          "size": 378635894
+          "downloadUrl": "https://octowork.cn/releases/v2026.06.08/octowork-chat-V2026.06.08-win-x64.zip",
+          "sha256": "0becb5052578077bb775c56d56e5b8a7b357b7d438de3a1fc07d948e2f2fde74",
+          "size": 378635695
         }
       },
       "minVersion": "V2026.04.01.1",
@@ -28,29 +28,60 @@
       "compatible": true
     },
     {
-      "version": "V2026.06.04",
-      "releaseDate": "2026-06-04",
-      "notes": "三平台完整发版：修复 backend/db 过滤逻辑，Windows 原生模块在目标机编译，启动脚本重构优化",
+      "version": "V2026.06.06-01",
+      "releaseDate": "2026-06-06",
+      "notes": "程序核心模块加密混淆保护上线（P0/P1 完成）；三道打包安全门禁；升级脚本自动检测+一键升级+SHA-256 校验；修复 Windows 升级后 config.json 被覆盖问题",
       "platforms": {
         "mac-arm64": {
-          "downloadUrl": "https://gitee.com/octowork/octowork-chat/releases/download/V2026.06.04/octowork-chat-V2026.06.04-mac-arm64.tar.gz",
-          "sha256": "b1688d58918263ca33c1ce82f7422c3313ea66b32655a918cc7387051adb0e15",
-          "size": 361202594
+          "downloadUrl": "https://gitee.com/octowork/octowork-chat/releases/download/V2026.06.06-01/octowork-chat-V2026.06.06-01-mac-arm64.tar.gz",
+          "sha256": "",
+          "size": 0
         },
         "mac-x64": {
-          "downloadUrl": "https://gitee.com/octowork/octowork-chat/releases/download/V2026.06.04/octowork-chat-V2026.06.04-mac-x64.tar.gz",
-          "sha256": "62646679448f729c3ad1af4204c3ade4f0290ee67360dc8ea8a6c894dcf048f9",
-          "size": 362864289
+          "downloadUrl": "https://gitee.com/octowork/octowork-chat/releases/download/V2026.06.06-01/octowork-chat-V2026.06.06-01-mac-x64.tar.gz",
+          "sha256": "",
+          "size": 0
         },
         "win-x64": {
-          "downloadUrl": "https://gitee.com/octowork/octowork-chat/releases/download/V2026.06.04/octowork-chat-V2026.06.04-win-x64.zip",
-          "sha256": "006f59d4b113d375597fc92488f105cdd71125cc23a2f429ddfa05b53d5fa882",
-          "size": 361155576
+          "downloadUrl": "https://gitee.com/octowork/octowork-chat/releases/download/V2026.06.06-01/octowork-chat-V2026.06.06-01-win-x64.zip",
+          "sha256": "",
+          "size": 0
+        }
+      },
+      "minVersion": "V2026.04.01.1",
+      "forceUpdate": false,
+      "compatible": true
+    },
+    {
+      "version": "V2026.06.03-01",
+      "releaseDate": "2026-06-03",
+      "notes": "首次安装自动启动服务，浏览器网页向导填写 API Key，无需手动编辑配置文件",
+      "platforms": {
+        "mac-arm64": {
+          "downloadUrl": "https://gitee.com/octowork/octowork-chat/releases/download/V2026.06.03-01/octowork-chat-V2026.06.03-01-mac-arm64.tar.gz",
+          "sha256": "ba58fcfabc5336bbf8c6f5e381af6f2097f225f5597f5158865ef1e53bce5f32",
+          "size": 304190224
+        },
+        "mac-x64": {
+          "downloadUrl": "https://gitee.com/octowork/octowork-chat/releases/download/V2026.06.03-01/octowork-chat-V2026.06.03-01-mac-x64.tar.gz",
+          "sha256": "",
+          "size": 0
+        },
+        "win-x64": {
+          "downloadUrl": "https://gitee.com/octowork/octowork-chat/releases/download/V2026.06.03-01/octowork-chat-V2026.06.03-01-win-x64.zip",
+          "sha256": "",
+          "size": 0
         }
       },
       "minVersion": "V2026.04.01.1",
       "forceUpdate": false,
       "compatible": true
     }
-  ]
+  ],
+  "updatePolicy": {
+    "autoCheck": true,
+    "checkInterval": 86400000,
+    "allowAutoUpdate": false,
+    "requireUserConfirmation": true
+  }
 }
