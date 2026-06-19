@@ -3,6 +3,19 @@
   "appName": "OctoWork Chat Manager",
   "releases": [
     {
+      "version": "v2026.06.20",
+      "releaseDate": "2026-06-20",
+      "notes": "",
+      "platforms": {
+        "mac-arm64": {},
+        "mac-x64": {},
+        "win-x64": {}
+      },
+      "minVersion": "v2026.04.01",
+      "forceUpdate": false,
+      "compatible": true
+    },
+    {
       "version": "v2026.06.14-1",
       "releaseDate": "2026-06-14",
       "notes": "本版本更新，详见应用内帮助 → 更新日志",
