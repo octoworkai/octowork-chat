@@ -1,7 +1,7 @@
 # OctoWork Chat Manager
 
 > 章鱼工作室 · AI 智能体工作台  
-> 最新版本：v2026.06.20
+> 最新版本：v2026.06.21
 
 ---
 
@@ -9,15 +9,15 @@
 
 ### macOS（Apple Silicon / M系列芯片）
 
-**[⬇ 下载 mac-arm64 版本](https://gitee.com/octowork/octowork-chat/releases/download/v2026.06.20/octowork-chat-v2026.06.20-mac-arm64.tar.gz)**
+**[⬇ 下载 mac-arm64 版本](https://gitee.com/octowork/octowork-chat/releases/download/v2026.06.21/octowork-chat-v2026.06.21-mac-arm64.tar.gz)**
 
 ### macOS（Intel 芯片）
 
-**[⬇ 下载 mac-x64 版本](https://gitee.com/octowork/octowork-chat/releases/download/v2026.06.20/octowork-chat-v2026.06.20-mac-x64.tar.gz)**
+**[⬇ 下载 mac-x64 版本](https://gitee.com/octowork/octowork-chat/releases/download/v2026.06.21/octowork-chat-v2026.06.21-mac-x64.tar.gz)**
 
 ### Windows 64位
 
-**[⬇ 下载 win-x64 版本](https://gitee.com/octowork/octowork-chat/releases/download/v2026.06.20/octowork-chat-v2026.06.20-win-x64.zip)**
+**[⬇ 下载 win-x64 版本](https://gitee.com/octowork/octowork-chat/releases/download/v2026.06.21/octowork-chat-v2026.06.21-win-x64.zip)**
 
 ---
 
@@ -54,13 +54,13 @@
 
 ## 更新日志
 
-### v2026.06.20
+### v2026.06.21
 - 🔒 程序核心模块加密混淆保护上线（P0/P1 全部完成）
 - 🛡️ 三道打包安全门禁：策略分类 / 泄漏扫描 / 关键语法校验
 - 🔄 升级脚本支持联网自动检测新版本并一键升级，SHA-256 完整性校验
 - 🐛 修复 Windows 升级后用户配置（config.json）被覆盖问题
 
-### v2026.06.20
+### v2026.06.21
 - 首次安装后自动启动服务并打开浏览器
 - 新增网页向导：无需手动编辑配置文件，在浏览器里填写 API Key 即可
 - 修复启动脚本端口混用问题（BUG-2）

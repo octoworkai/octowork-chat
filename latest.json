@@ -3,6 +3,41 @@
   "appName": "OctoWork Chat Manager",
   "releases": [
     {
+      "version": "v2026.06.21",
+      "releaseDate": "2026-06-21",
+      "notes": "本版本更新，详见应用内帮助 → 更新日志",
+      "platforms": {
+        "mac-arm64": {
+          "patchUrl": "https://octowork.cn/releases/v2026.06.21/octowork-chat-v2026.06.21-mac-arm64-patch.tar.gz",
+          "patchSha256": "8931eae70596b6b61f3cf930eabb45aa5beda320e3e3879787f1327dfbd290a4",
+          "patchSize": 3835397
+        },
+        "mac-x64": {
+          "patchUrl": "https://octowork.cn/releases/v2026.06.21/octowork-chat-v2026.06.21-mac-x64-patch.tar.gz",
+          "patchSha256": "ed649f97808d39511d3e67b9828a3861340b095b086961253601b62cc4fa4ddf",
+          "patchSize": 3841939
+        },
+        "win-x64": {
+          "patchUrl": "https://octowork.cn/releases/v2026.06.21/octowork-chat-v2026.06.21-win-x64-patch.zip",
+          "patchSha256": "aaab7c2b82f7fa391e761e221054ce630903795d3fad96550607354ac91210ec",
+          "patchSize": 4501817
+        },
+        "server-linux-amd64": {
+          "patchUrl": "https://octowork.cn/releases/v2026.06.21/octowork-chat-v2026.06.21-server-linux-amd64-patch.zip",
+          "patchSha256": "58fef7d7fd4a51b429949d0fecdf527f54d319adb39b3ac895b6b9e8e173eb86",
+          "patchSize": 270192443
+        },
+        "server-linux-arm64": {
+          "patchUrl": "https://octowork.cn/releases/v2026.06.21/octowork-chat-v2026.06.21-server-linux-arm64-patch.zip",
+          "patchSha256": "59b80671f1966c74196fd59287bf5d14d2aab5d840ad142fe86e832aaf1d00da",
+          "patchSize": 270192415
+        }
+      },
+      "minVersion": "v2026.04.01",
+      "forceUpdate": false,
+      "compatible": true
+    },
+    {
       "version": "v2026.06.20",
       "releaseDate": "2026-06-20",
       "notes": "",
