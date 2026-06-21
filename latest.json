@@ -3,195 +3,40 @@
   "appName": "OctoWork Chat Manager",
   "releases": [
     {
-      "version": "v2026.06.21",
-      "releaseDate": "2026-06-21",
+      "version": "v2026.06.21-2",
+      "releaseDate": "2026-06-21T00:09:07Z",
       "notes": "本版本更新，详见应用内帮助 → 更新日志",
       "platforms": {
         "mac-arm64": {
-          "patchUrl": "https://octowork.cn/releases/v2026.06.21/octowork-chat-v2026.06.21-mac-arm64-patch.tar.gz",
-          "patchSha256": "8931eae70596b6b61f3cf930eabb45aa5beda320e3e3879787f1327dfbd290a4",
-          "patchSize": 3835397
+          "patchUrl": "https://octowork.cn/releases/v2026.06.21-2/octowork-chat-v2026.06.21-2-mac-arm64-patch.tar.gz",
+          "patchSha256": "3c913171b99809eff829b4c7713d3a6258120a250b044aeb193ea48873003ff5",
+          "patchSize": 4149668
         },
         "mac-x64": {
-          "patchUrl": "https://octowork.cn/releases/v2026.06.21/octowork-chat-v2026.06.21-mac-x64-patch.tar.gz",
-          "patchSha256": "ed649f97808d39511d3e67b9828a3861340b095b086961253601b62cc4fa4ddf",
-          "patchSize": 3841939
+          "patchUrl": "https://octowork.cn/releases/v2026.06.21-2/octowork-chat-v2026.06.21-2-mac-x64-patch.tar.gz",
+          "patchSha256": "564995e56317b909455742e5198e0ad3f8478a048ef896bcbebd91dc79c57f20",
+          "patchSize": 4147835
         },
         "win-x64": {
-          "patchUrl": "https://octowork.cn/releases/v2026.06.21/octowork-chat-v2026.06.21-win-x64-patch.zip",
-          "patchSha256": "aaab7c2b82f7fa391e761e221054ce630903795d3fad96550607354ac91210ec",
-          "patchSize": 4501817
-        },
-        "server-linux-amd64": {
-          "patchUrl": "https://octowork.cn/releases/v2026.06.21/octowork-chat-v2026.06.21-server-linux-amd64-patch.zip",
-          "patchSha256": "58fef7d7fd4a51b429949d0fecdf527f54d319adb39b3ac895b6b9e8e173eb86",
-          "patchSize": 270192443
-        },
-        "server-linux-arm64": {
-          "patchUrl": "https://octowork.cn/releases/v2026.06.21/octowork-chat-v2026.06.21-server-linux-arm64-patch.zip",
-          "patchSha256": "59b80671f1966c74196fd59287bf5d14d2aab5d840ad142fe86e832aaf1d00da",
-          "patchSize": 270192415
+          "patchUrl": "https://octowork.cn/releases/v2026.06.21-2/octowork-chat-v2026.06.21-2-win-x64-patch.zip",
+          "patchSha256": "2208c4413647b2d1d7343f5dfc5a38521b9bdc6d2882c7490eb0a0ee3ac6646a",
+          "patchSize": 4808544
         }
       },
       "minVersion": "v2026.04.01",
       "forceUpdate": false,
-      "compatible": true
-    },
-    {
-      "version": "v2026.06.20",
-      "releaseDate": "2026-06-20",
-      "notes": "",
-      "platforms": {
-        "mac-arm64": {},
-        "mac-x64": {},
-        "win-x64": {}
+      "compatible": true,
+      "toolsChanged": false,
+      "reloadToolRegistry": false,
+      "invalidateSessionToolCache": false,
+      "hotReload": {
+        "mode": "none"
       },
-      "minVersion": "v2026.04.01",
-      "forceUpdate": false,
-      "compatible": true
-    },
-    {
-      "version": "v2026.06.14-1",
-      "releaseDate": "2026-06-14",
-      "notes": "本版本更新，详见应用内帮助 → 更新日志",
-      "platforms": {
-        "mac-arm64": {
-          "downloadUrl": "",
-          "sha256": "",
-          "size": 0,
-          "patchUrl": "https://octowork.cn/releases/v2026.06.14-1/octowork-chat-v2026.06.14-1-mac-arm64-patch.tar.gz",
-          "patchSha256": "60c7603a9cdadce5da41cc40a35284954e137d00cf04256afca19539d9b3e6af",
-          "patchSize": 3366044
-        },
-        "mac-x64": {
-          "downloadUrl": "",
-          "sha256": "",
-          "size": 0,
-          "patchUrl": "https://octowork.cn/releases/v2026.06.14-1/octowork-chat-v2026.06.14-1-mac-x64-patch.tar.gz",
-          "patchSha256": "db83b0ee2fb9a611d99f2a8a807bb0d05a4efccf3f43295c5d4d436c20a014f6",
-          "patchSize": 3367910
-        },
-        "win-x64": {
-          "downloadUrl": "",
-          "sha256": "",
-          "size": 0,
-          "patchUrl": "https://octowork.cn/releases/v2026.06.14-1/octowork-chat-v2026.06.14-1-win-x64-patch.zip",
-          "patchSha256": "1594054e6a56a7efe168b65b5a9bb5235371045298163214008311d688274626",
-          "patchSize": 4007503
-        }
-      },
-      "minVersion": "v2026.04.01",
-      "forceUpdate": false,
-      "compatible": true
-    },
-    {
-      "version": "V2026.06.09",
-      "releaseDate": "2026-06-10",
-      "notes": "🆕 API 注入内容可视化 — 设置→功能配置 开启后，每次对话可查看发给 AI 的完整 messages[]，调试利器；🖼️ 图片工具扩展 — 新增图片放大（image_upscale）+ 抠图（image_rmbg），走千引擎渠道；🎨 Debug 诊断面板重构 — 三区域布局：SYSTEM / 历史对话合并 / 最新用户消息，清晰分层；🧠 AI 失忆根治 — C3 break 时补写 assistant_final，修复下一轮对话失忆问题（P0）；🔄 turnIndex 跨请求持久化 — 根治 gc_group_id 全轮共享的上下文混乱；⏱️ 时间锚修复 — 根治孤立 assistant/assistant_final 消息时间线错乱；🔁 loop-guard 阈值优化 — 连续失败 3→5、重复调用 3→5，减少正常任务误杀；🎛️ 功能配置面板 — debug_prompt 等开关可在设置页面直接操作，不用手改 .env；🪫 电池面板修复 — 手动充电报错 + token-bar 进度条宽度计算；📊 电池面板 + GC 释放空间 + 压缩率显示；🔧 Bot 回复丢失根治 + 无效轮次检测",
-      "platforms": {
-        "mac-arm64": {
-          "downloadUrl": "",
-          "sha256": "",
-          "size": 0,
-          "patchUrl": "https://octowork.cn/releases/v2026.06.09/octowork-chat-V2026.06.09-mac-arm64-patch.tar.gz",
-          "patchSha256": "13572d25e626b1f5b4ee2f767d550f790e89b0fd0b79bb2549534d941e5e63de",
-          "patchSize": 297192248
-        },
-        "mac-x64": {
-          "downloadUrl": "",
-          "sha256": "",
-          "size": 0,
-          "patchUrl": "https://octowork.cn/releases/v2026.06.09/octowork-chat-V2026.06.09-mac-x64-patch.tar.gz",
-          "patchSha256": "bc07b6a6599022533ed7dd7cd473cba115f5964fe3d304be612c4888de559ef6",
-          "patchSize": 297194469
-        },
-        "win-x64": {
-          "downloadUrl": "",
-          "sha256": "",
-          "size": 0,
-          "patchUrl": "https://octowork.cn/releases/v2026.06.09/octowork-chat-V2026.06.09-win-x64-patch.zip",
-          "patchSha256": "ab22adbe41646a812c81c468f32348f68adc1e583b9c08482e4fab72494243f8",
-          "patchSize": 302724668
-        }
-      },
-      "minVersion": "V2026.04.01.1",
-      "forceUpdate": false,
-      "compatible": true
-    },
-    {
-      "version": "V2026.06.08",
-      "releaseDate": "2026-06-09",
-      "notes": "本版本更新，详见应用内帮助 → 更新日志",
-      "platforms": {
-        "mac-arm64": {
-          "downloadUrl": "https://octowork.cn/releases/v2026.06.08/octowork-chat-V2026.06.08-mac-arm64.tar.gz",
-          "sha256": "05c2b91f0b86930679552833be5b9c513df2f8fb48f9fe4b7eb3eb04e35a79ae",
-          "size": 355797453
-        },
-        "mac-x64": {
-          "downloadUrl": "https://octowork.cn/releases/v2026.06.08/octowork-chat-V2026.06.08-mac-x64.tar.gz",
-          "sha256": "1d0bac079bfd9aeda8bc1ca37764a0a87a2087861ba3273106e29b72773c5ac6",
-          "size": 377510544
-        },
-        "win-x64": {
-          "downloadUrl": "https://octowork.cn/releases/v2026.06.08/octowork-chat-V2026.06.08-win-x64.zip",
-          "sha256": "0becb5052578077bb775c56d56e5b8a7b357b7d438de3a1fc07d948e2f2fde74",
-          "size": 378635695
-        }
-      },
-      "minVersion": "V2026.04.01.1",
-      "forceUpdate": false,
-      "compatible": true
-    },
-    {
-      "version": "V2026.06.06-01",
-      "releaseDate": "2026-06-06",
-      "notes": "程序核心模块加密混淆保护上线（P0/P1 完成）；三道打包安全门禁；升级脚本自动检测+一键升级+SHA-256 校验；修复 Windows 升级后 config.json 被覆盖问题",
-      "platforms": {
-        "mac-arm64": {
-          "downloadUrl": "https://octowork.cn/releases/v2026.06.06-01/octowork-chat-V2026.06.06-01-mac-arm64.tar.gz",
-          "sha256": "",
-          "size": 0
-        },
-        "mac-x64": {
-          "downloadUrl": "https://octowork.cn/releases/v2026.06.06-01/octowork-chat-V2026.06.06-01-mac-x64.tar.gz",
-          "sha256": "",
-          "size": 0
-        },
-        "win-x64": {
-          "downloadUrl": "https://octowork.cn/releases/v2026.06.06-01/octowork-chat-V2026.06.06-01-win-x64.zip",
-          "sha256": "",
-          "size": 0
-        }
-      },
-      "minVersion": "V2026.04.01.1",
-      "forceUpdate": false,
-      "compatible": true
-    },
-    {
-      "version": "V2026.06.03-01",
-      "releaseDate": "2026-06-03",
-      "notes": "首次安装自动启动服务，浏览器网页向导填写 API Key，无需手动编辑配置文件",
-      "platforms": {
-        "mac-arm64": {
-          "downloadUrl": "https://octowork.cn/releases/v2026.06.03-01/octowork-chat-V2026.06.03-01-mac-arm64.tar.gz",
-          "sha256": "ba58fcfabc5336bbf8c6f5e381af6f2097f225f5597f5158865ef1e53bce5f32",
-          "size": 304190224
-        },
-        "mac-x64": {
-          "downloadUrl": "https://octowork.cn/releases/v2026.06.03-01/octowork-chat-V2026.06.03-01-mac-x64.tar.gz",
-          "sha256": "",
-          "size": 0
-        },
-        "win-x64": {
-          "downloadUrl": "https://octowork.cn/releases/v2026.06.03-01/octowork-chat-V2026.06.03-01-win-x64.zip",
-          "sha256": "",
-          "size": 0
-        }
-      },
-      "minVersion": "V2026.04.01.1",
-      "forceUpdate": false,
-      "compatible": true
+      "toolChanges": {
+        "added": [],
+        "updated": [],
+        "removed": []
+      }
     }
   ],
   "updatePolicy": {
