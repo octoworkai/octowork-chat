@@ -3,21 +3,21 @@
   "appName": "OctoWork Chat Manager",
   "releases": [
     {
-      "version": "v2026.06.21-2",
+      "version": "v2026.06.21-3",
       "date": "2026-06-21",
       "platforms": {
         "mac-arm64": {
-          "patchUrl": "https://octowork.cn/releases/v2026.06.21-2/octowork-chat-v2026.06.21-2-mac-arm64-patch.tar.gz",
+          "patchUrl": "https://octowork.cn/releases/v2026.06.21-3/octowork-chat-v2026.06.21-3-mac-arm64-patch.tar.gz",
           "patchSha256": "33b69a436760294059c9a97b77cfbec0f6bad4c898ab1d7a914e9c3c59d3b0d8",
           "patchSize": 3362754
         },
         "mac-x64": {
-          "patchUrl": "https://octowork.cn/releases/v2026.06.21-2/octowork-chat-v2026.06.21-2-mac-x64-patch.tar.gz",
+          "patchUrl": "https://octowork.cn/releases/v2026.06.21-3/octowork-chat-v2026.06.21-3-mac-x64-patch.tar.gz",
           "patchSha256": "4591dc9e8490287e6398bc838866b3ddb8138341296d3f9953cf9307b507ea4a",
           "patchSize": 3363050
         },
         "win-x64": {
-          "patchUrl": "https://octowork.cn/releases/v2026.06.21-2/octowork-chat-v2026.06.21-2-win-x64-patch.zip",
+          "patchUrl": "https://octowork.cn/releases/v2026.06.21-3/octowork-chat-v2026.06.21-3-win-x64-patch.zip",
           "patchSha256": "e300b85a04f46af96be97e20a930654862c269910af4bf03a1631509e2bf4413",
           "patchSize": 4031686
         }
@@ -30,21 +30,21 @@
     "allowAutoUpdate": false,
     "requireUserConfirmation": true
   },
-  "version": "v2026.06.21-2",
+  "version": "v2026.06.21-3",
   "date": "2026-06-21",
   "platforms": {
     "mac-arm64": {
-      "patchUrl": "https://octowork.cn/releases/v2026.06.21-2/octowork-chat-v2026.06.21-2-mac-arm64-patch.tar.gz",
+      "patchUrl": "https://octowork.cn/releases/v2026.06.21-3/octowork-chat-v2026.06.21-3-mac-arm64-patch.tar.gz",
       "patchSha256": "33b69a436760294059c9a97b77cfbec0f6bad4c898ab1d7a914e9c3c59d3b0d8",
       "patchSize": 3362754
     },
     "mac-x64": {
-      "patchUrl": "https://octowork.cn/releases/v2026.06.21-2/octowork-chat-v2026.06.21-2-mac-x64-patch.tar.gz",
+      "patchUrl": "https://octowork.cn/releases/v2026.06.21-3/octowork-chat-v2026.06.21-3-mac-x64-patch.tar.gz",
       "patchSha256": "4591dc9e8490287e6398bc838866b3ddb8138341296d3f9953cf9307b507ea4a",
       "patchSize": 3363050
     },
     "win-x64": {
-      "patchUrl": "https://octowork.cn/releases/v2026.06.21-2/octowork-chat-v2026.06.21-2-win-x64-patch.zip",
+      "patchUrl": "https://octowork.cn/releases/v2026.06.21-3/octowork-chat-v2026.06.21-3-win-x64-patch.zip",
       "patchSha256": "e300b85a04f46af96be97e20a930654862c269910af4bf03a1631509e2bf4413",
       "patchSize": 4031686
     }
